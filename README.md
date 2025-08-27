@@ -1,8 +1,8 @@
-## 🦉 Exercícios Web 2
+## 📙 Exercícios Web 2
 
 Este repositório contém os exercícios desenvolvidos para a disciplina de Web 2 (Turma 2023 - UNIFESSPA)<br/>por Marcus Vinicius Rangel Coelho.
 
-## 🛠️ Tecnologias Utilizadas (por enquanto)
+## 🛠️ Tecnologias Utilizadas (até então)
 
 - TYPESCRIPT
 
