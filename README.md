@@ -4,11 +4,13 @@ Este repositório contém os exercícios desenvolvidos para a disciplina de Web 
 
 ## 🛠️ Tecnologias Utilizadas (até então)
 
-- TYPESCRIPT
+- Typescript
+- Node.js
 
 ## 📌 Exercícios Incluídos
 
 - Atividade 1 - users.ts
+- Atividade 2 - support-tickets `NODE API sem frameworks`
 
 ## 📝 Notas
 
