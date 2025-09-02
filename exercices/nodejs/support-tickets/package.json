@@ -1,0 +1,13 @@
+{
+  "name": "support-tickets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "scripts": {
+    "dev": "node --watch ./src/server.js"
+  },
+  "keywords": [],
+  "author": "Marcus Coelho",
+  "license": "ISC",
+  "type": "module"
+}
