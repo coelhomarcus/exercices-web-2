@@ -11,7 +11,7 @@ export function getTicket(req, res, database) {
 
             return res.writeHead(201).end(
                 JSON.stringify(
-                    database.read("tickets").find((ticket) => {
+                    database.read("tickets").filter((ticket) => {
                         return ticket.status === parsedUrl.query.status;
                     })
                 )
