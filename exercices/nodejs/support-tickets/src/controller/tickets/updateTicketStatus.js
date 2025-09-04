@@ -21,6 +21,7 @@ export function updateTicketStatus(req, res, database) {
             }
 
             ticket.status = req.body.status;
+            ticket.updated_at = new Date();
             return res.writeHead(201).end(JSON.stringify(ticket));
         } else {
             return res.writeHead(400).end("Status não fornecido");

@@ -20,6 +20,7 @@ export function updateTicket(req, res, database) {
 
         ticket.equipment = req.body.equipment;
         ticket.description = req.body.description;
+        ticket.updated_at = new Date();
 
         return res.writeHead(201).end(JSON.stringify(ticket));
     } else {
