@@ -9,26 +9,34 @@ export function getTask(req, res, database) {
             const title = parsedUrl.query.title;
 
             if (description) {
-                return res.writeHead(201).end(JSON.stringify(database.read("tasks").filter((task) => task.description.includes(description))));
+                return res
+                    .writeHead(200)
+                    .end(
+                        JSON.stringify(database.read("tasks").filter((task) => task.description.includes(description)))
+                    );
             }
 
             if (title) {
                 if (description) {
-                    return res.writeHead(201).end(JSON.stringify(database.read("tasks").filter((task) => task.title.includes(title) && task.description.includes(description))));
+                    return res
+                        .writeHead(200)
+                        .end(
+                            JSON.stringify(
+                                database
+                                    .read("tasks")
+                                    .filter(
+                                        (task) => task.title.includes(title) && task.description.includes(description)
+                                    )
+                            )
+                        );
                 }
 
-                return res.writeHead(201).end(JSON.stringify(database.read("tasks").filter((task) => task.title.includes(title))));
+                return res
+                    .writeHead(200)
+                    .end(JSON.stringify(database.read("tasks").filter((task) => task.title.includes(title))));
             }
-
-            return res.writeHead(201).end(
-                JSON.stringify(
-                    database.read("tasks").filter((task) => {
-                        return task.status === parsedUrl.query.status;
-                    })
-                )
-            );
         }
-        return res.writeHead(201).end(JSON.stringify(database.read("tasks")));
+        return res.writeHead(200).end(JSON.stringify(database.read("tasks")));
     } else {
         return es.writeHead(400).end("Sem banco de dados");
     }
