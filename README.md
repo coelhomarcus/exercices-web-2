@@ -6,12 +6,15 @@ Este repositório contém os exercícios desenvolvidos para a disciplina de Web 
 
 -   Typescript
 -   Node.js
+-   Fastify
+-   Knex.js
 
 ## 📌 Exercícios Incluídos
 
 -   Atividade 1 - users.ts
 -   Atividade 2 - support-tickets `NODE API sem frameworks`
 -   Atividade 3 - tasks `NODE API sem frameworks`
+-   Atividade 4 - tasks `Fastify em Typescript & Knex`
 
 ## 📝 Notas
 
