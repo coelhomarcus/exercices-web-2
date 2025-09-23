@@ -15,6 +15,7 @@ Este repositório contém os exercícios desenvolvidos para a disciplina de Web 
 -   Atividade 2 - support-tickets `NODE API sem frameworks`
 -   Atividade 3 - tasks `NODE API sem frameworks`
 -   Atividade 4 - cursos `Fastify, Typescript, Knex, SQLITE`
+-   Atividade 5 - Dieta `Fastify, Typescript, Knex, SQLITE`
 
 ## 📝 Notas
 
