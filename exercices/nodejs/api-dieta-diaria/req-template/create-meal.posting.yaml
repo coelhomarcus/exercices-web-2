@@ -1,0 +1,15 @@
+name: Create Meal
+method: POST
+url: localhost:3333/meal
+body:
+  content: |-
+    {
+      "name": "Maça",
+      "desc": "Maça do Amor",
+      "diet": true,
+      "user_id": 1
+    }
+  content_type: application/json
+headers:
+- name: content-type
+  value: application/json

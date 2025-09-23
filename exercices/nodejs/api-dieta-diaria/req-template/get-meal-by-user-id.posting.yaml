@@ -1,0 +1,5 @@
+name: Get Meal by User ID
+url: localhost:3333/meal
+headers:
+- name: user_id
+  value: '1'

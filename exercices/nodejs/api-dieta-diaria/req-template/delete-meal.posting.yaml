@@ -1,0 +1,8 @@
+name: Delete Meal
+method: DELETE
+url: localhost:3333/meal
+headers:
+- name: id
+  value: '1'
+- name: user_id
+  value: '1'

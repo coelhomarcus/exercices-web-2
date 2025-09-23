@@ -1,0 +1,5 @@
+name: Get metrics
+url: localhost:3333/metrics
+headers:
+- name: user_id
+  value: '1'

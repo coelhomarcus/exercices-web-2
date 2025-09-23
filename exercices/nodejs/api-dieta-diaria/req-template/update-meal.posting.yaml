@@ -1,0 +1,18 @@
+name: Update Meal
+method: PUT
+url: localhost:3333/meal
+body:
+  content: |-
+    {
+      "name": "Pera Doce",
+      "desc": "Pera com Leite e Açucar",
+      "diet": false
+    }
+  content_type: application/json
+headers:
+- name: id
+  value: '1'
+- name: user_id
+  value: '1'
+- name: content-type
+  value: application/json
