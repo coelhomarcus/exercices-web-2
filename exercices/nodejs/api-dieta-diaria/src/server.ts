@@ -1,5 +1,6 @@
 import fastify from "fastify";
 
+
 import { getAllUsers, getUserById, getUserMetricsById, createUser } from "./controllers/users/userController.ts";
 import { createMeal, getAllMealByUserId, updateMealByIdAndUserId, getMealByIdAndUserId, deleteMealByIdAndUserId } from "./controllers/meals/mealsController.ts";
 
@@ -8,6 +9,8 @@ const app = fastify()
 // Listar todos os usuários
 app.get('/users', getAllUsers)
 
+
+// Criar usuário
 app.post('/users', createUser)
 
 // Buscar usuário por ID
@@ -32,5 +35,5 @@ app.delete('/meal', deleteMealByIdAndUserId)
 app.get('/metrics', getUserMetricsById)
 
 app.listen({ port: 3333 }).then(() => {
-   console.log("HTTP server running")
+  console.log("HTTP server running")
 })
