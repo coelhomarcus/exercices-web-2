@@ -12,12 +12,12 @@ Este repositório contém os exercícios desenvolvidos para a disciplina de Web 
 
 ## 📌 Exercícios Incluídos
 
--   Atividade 1 - users.ts `TS`
--   Atividade 2 - support-tickets `Node API`
--   Atividade 3 - tasks `Node API`
--   Atividade 4 - cursos `Fastify, TS, Knex, SQLite`
--   Atividade 5 - Dieta `Fastify, TS, Knex, SQLite`
--   Atividade 6 - API Simples `Node, Docker`
+-   [Atividade 1](./exercices/typescript/users/) - users.ts `TS`
+-   [Atividade 2](./exercices/nodejs/support-tickets/) - Tickets API `Node`
+-   [Atividade 3](./exercices/nodejs/tasks/) - Tasks API `Node`
+-   [Atividade 4](./exercices/nodejs/courses/) - Courses API `Fastify, TS, Knex, SQLite`
+-   [Atividade 5](./exercices/nodejs/api-dieta-diaria/) - Diet API `Fastify, TS, Knex, SQLite`
+-   [Atividade 6](./exercices/docker/simple-api-node/) - API Simples `Node, Docker`
 
 ## 📝 Notas
 
