@@ -1,0 +1,10 @@
+.tip {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   background-color: #EBEBFC;
+   color: #4F4FB9;
+   padding: 10px;
+   border-radius: 10px;
+   gap: 20px;
+}

@@ -18,6 +18,7 @@ Este repositório contém os exercícios desenvolvidos para a disciplina de Web 
 -   [Atividade 4](./exercices/nodejs/courses/) - Courses API `Fastify, TS, Knex, SQLite`
 -   [Atividade 5](./exercices/nodejs/api-dieta-diaria/) - Diet API `Fastify, TS, Knex, SQLite`
 -   [Atividade 6](./exercices/docker/simple-api-node/) - API Simples `Node, Docker`
+-   [Atividade 7](./exercices/react/Advinhe/) - Advinhe - `React, Typescript, CSS Modules`
 
 ## 📝 Notas
 
